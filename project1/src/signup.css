@@ -1,0 +1,151 @@
+@font-face {
+    font-family:DMsans;
+    src: url(../public/DMSans-VariableFont_opsz\,wght.ttf);
+}
+* {
+    margin: 2% 5% 0% 5%;
+    font-family:DMsans;
+}
+
+body {
+    background-color: #2f1893; 
+}
+.navbar{
+    padding: 0%;
+    margin: 0%;
+}   
+
+.navbar a ,h2,li,ul{
+    display:inline;
+    text-decoration: none;
+    color: #fff; 
+    margin:0%;
+}
+.navbar li{
+    padding:0px 30px 0px 0px ;
+    
+}
+.navbar ul{
+    padding:0px 0px 0px 0px ;
+    
+} 
+
+
+.navbar h2{
+    padding:0% 38% 0% 0%;
+    
+}
+.mainsplit{
+    display:inline-flex;
+   margin-left: -9%;
+   }
+.splitleft {
+       width:50%;
+       height:100vh;
+       color:#fff
+       
+   }
+.splitright{
+       width:50%;
+       height:100vh;
+       
+   }
+
+.splitleft div h1 p{
+    margin:0%;
+    padding:0%;
+}
+.more{
+    border-radius :100px;
+     background-color: #E93A7D;
+     padding: 9px;
+    margin-right: 67%;
+}
+.more a{
+    color:#fff;
+}
+.form{
+    background-color: #fff;
+}
+.signupnow{
+    color:#1E0E62;
+    text-align: center;
+    padding-top:1%
+}
+.email input{
+    border:2px solid #ecd5d533;
+    border-radius: 16px;
+    padding: 2% 28% 2% 3%;
+}
+.password input{
+    border:2px solid #ecd5d533;
+    border-radius: 16px;
+    padding:2% 28% 2% 3% ;
+}
+.btn input{
+    width:78%;
+    height: 42.5px;
+    border:2px solid;
+    border-radius: 16px;
+    background:#4318FF;
+    color:#fff;
+    font-weight: 700;
+    text-align: center;
+}
+.btn2 input{
+    width:78%;
+    height: 42.5px;
+    border:2px solid;
+    border-radius: 16px;
+    background:#25dac5;
+    color:#fff;
+    font-weight: 700;
+    text-align: center;
+}
+.or{
+    text-align: center;
+    position: relative;
+}
+.or::before{
+    content:"";
+    position:absolute;
+    width: 177px;
+    height: 2px;
+    background: #ebe6e6;
+    right: 0;
+    top: 50%;
+}
+.or::after{
+    content:"";
+    position:absolute;
+    width: 177px;
+    height: 2px;
+    background: #ebe6e6;
+    left: 0;
+    top: 50%;
+
+}
+.createaccount{
+    line-height:45px;
+    text-align:center;
+}
+.createaccount a{
+    text-decoration: none;
+    color:#25dac5; 
+}
+.lable{
+    margin:0% 0% 0% 0%;
+}
+.input{
+    margin-left: 7%;
+}
+.input input{
+    width: 15px;
+    height: 15px;
+    accent-color:#25cdc5;
+}
+.input input lable{
+      margin: 0% 0% 0% 0%;
+
+} 
+ 
